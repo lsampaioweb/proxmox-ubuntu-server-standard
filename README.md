@@ -1,5 +1,5 @@
-# packer-proxmox-ubuntu-22-04-server-standard
-Packer project to create an Ubuntu template on Proxmox from a cloned template.
+# proxmox-ubuntu-22-04-server-standard
+Project to create an Ubuntu template on Proxmox from a cloned template.
 
 Run these commands on the Proxmox node (just once and on any node):
 ```bash

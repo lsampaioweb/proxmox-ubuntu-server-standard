@@ -21,10 +21,6 @@ source "proxmox-clone" "template" {
 
   # OS
   os = var.os
-  vga {
-    type   = var.vga.type
-    memory = var.vga.memory
-  }
 
   # System
   qemu_agent      = var.qemu_agent

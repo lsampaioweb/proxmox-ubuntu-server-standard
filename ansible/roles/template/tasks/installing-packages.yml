@@ -6,9 +6,9 @@
     upgrade: "safe"
     packages:
       - {name: "ethtool"} # To enable Wake-on-Lan.
+      - {name: "curl"} # Transfer a URL.
       - {name: "traceroute"} # It helps debug network problems.
       - {name: "whois"} # To enable mkpasswd command.
       - {name: "net-tools"} # A collection of programs that form the base set of the NET-3 networking.
-      - {name: "curl"} # Transfer a URL.
       - {name: "tree"} # List contents of directories in a tree-like format.
       - {name: "fail2ban"} # Is an intrusion prevention software framework.

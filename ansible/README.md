@@ -4,6 +4,7 @@ Project with Ansible scripts to create an Ubuntu template on Proxmox from a clon
 Run the command in the terminal:
 ```bash
   ansible-playbook template.yml
+  ansible-playbook kvm_node.yml -e "node=kvm-07 vm_id=901 storage_pool=Ceph_Silver"
 ```
 
 # Created by: 

@@ -11,6 +11,9 @@
 - name: "Setting up fail2ban"
   ansible.builtin.import_tasks: "roles/common/tasks/debian/packages/fail2ban.yml"
 
+- name: "Creating the Ansible user account"
+  ansible.builtin.import_tasks: "users.yml"
+
 - name: "Recreating the machine-id file so the new VM can get a new IP"
   ansible.builtin.import_tasks: "roles/common/tasks/debian/os/machine-id.yml"
 

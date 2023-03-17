@@ -1,6 +1,0 @@
----
-# The name of the root user used in VM.
-user_password_id: "usr_ansible"
-
-# The hash type to be used when encrypting the user's password.
-password_hash: "sha512"

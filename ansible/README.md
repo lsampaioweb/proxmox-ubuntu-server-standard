@@ -3,7 +3,7 @@ Project with Ansible scripts to create an Ubuntu template on Proxmox from a clon
 
 Run the command in the terminal:
 ```bash
-  ansible-playbook template.yml hostname=ubuntu-22-04-server-standard
+  ansible-playbook template.yml -e "hostname=ubuntu-22-04-server-standard"
   ansible-playbook kvm_setup.yml -e "node=kvm-07 vm_id=902 hotplug=disk,network,cpu storage_pool=Ceph_Silver"
 ```
 

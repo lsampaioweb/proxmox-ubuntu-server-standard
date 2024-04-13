@@ -5,6 +5,14 @@
     rules:
       - {rule: "allow", name: "OpenSSH", comment: "Allow OpenSSH for All"}
 
+- name: "Ensure the ufw.log file exists"
+  ansible.builtin.file:
+    path: "/var/log/ufw.log"
+    state: "touch"
+    owner: "syslog"
+    group: "syslog"
+    mode: "0664"
+
 - name: "Setting DENY as the default policy and enabling the UFW"
   community.general.ufw:
     policy: "deny"

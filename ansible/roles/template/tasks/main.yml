@@ -5,7 +5,7 @@
 - name: "Installing required packages"
   ansible.builtin.import_tasks: "installing-packages.yml"
 
-- name: "Enabling and setting up UFW"
+- name: "Setting up the Firewall UFW"
   ansible.builtin.import_tasks: "ufw.yml"
 
 - name: "Setting up fail2ban"

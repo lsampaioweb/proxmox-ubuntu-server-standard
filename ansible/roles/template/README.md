@@ -6,12 +6,16 @@
 
 ## 2. Install required packages.
 
-## 3. Setup the fail2ban application.
+## 3. Setup the firewall UFW.
 
-## 4. Remove unnecessary files, folders and configuration.
+## 4. Setup the fail2ban application.
 
-## 5. Recreate the machine-id file so the new VM can get a new IP.
+## 5. Remove unnecessary packages.
 
-# Created by: 
+## 6. Recreate the machine-id file so the new VM can get a new IP.
+
+## 7. Remove unnecessary files, folders and configuration.
+
+# Created by:
 
 1. Luciano Sampaio.

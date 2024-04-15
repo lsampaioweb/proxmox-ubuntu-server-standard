@@ -1,5 +1,5 @@
 proxmox_url = "https://pve-01.homelab:8006/api2/json"
-node        = "pve-01"
+node        = "pve-02"
 
 clone_vm = "ubuntu-22-04-server-raw"
 

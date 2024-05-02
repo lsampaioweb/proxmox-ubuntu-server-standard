@@ -7,6 +7,7 @@ Run the command in the terminal:
   ansible-playbook kvm_setup.yml -e "node=kvm-07 vm_id=911 storage_pool=Ceph_Gold"
 ```
 
-# Created by:
+#
+### Created by:
 
 1. Luciano Sampaio.

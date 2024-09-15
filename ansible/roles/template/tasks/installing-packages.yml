@@ -17,3 +17,4 @@
       - {name: "ufw"} # Uncomplicated Firewall, a frontend for managing firewall rules.
       - {name: "fail2ban"} # Intrusion prevention software to protect against brute-force attacks.
       - {name: "restic"} # Efficient and secure backup program.
+      - {name: "acl"} # Provides support for Access Control Lists (ACLs), allowing fine-grained permissions on files and directories.

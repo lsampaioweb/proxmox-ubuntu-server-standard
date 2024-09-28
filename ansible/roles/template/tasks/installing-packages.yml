@@ -7,6 +7,7 @@
     packages:
       - {name: "sshpass"} # Provides non-interactive SSH password entry.
       - {name: "libsecret-tools"} # Utility for storing and retrieving passwords.
+      - {name: "gnome-keyring"} # The secret manager.
       - {name: "ethtool"} # Tool to manage network device settings, including Wake-on-LAN.
       - {name: "curl"} # Command-line tool for transferring data with URLs.
       - {name: "traceroute"} # Utility to trace the route packets take to a network host.

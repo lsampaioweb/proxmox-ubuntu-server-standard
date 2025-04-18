@@ -29,11 +29,10 @@ Run these commands to execute Packer:
 # ./pkr.sh validate home
 # ./pkr.sh build home ask debug
   ./pkr.sh build 01-bare-minimum
-  ./pkr.sh build 02-bios-seabios
-  ./pkr.sh build 03-cpu
-  ./pkr.sh build 04-memory
-  ./pkr.sh build 05-multiple-disks
-  ./pkr.sh build 06-multiple-networks
+  ./pkr.sh build 02-cpu
+  ./pkr.sh build 03-memory
+  ./pkr.sh build 04-multiple-disks
+  ./pkr.sh build 05-multiple-networks
   ./pkr.sh build home
   ./pkr.sh build homelab
 ```

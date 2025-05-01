@@ -1,4 +1,4 @@
-# proxmox-ubuntu-24-04-server-standard
+# proxmox-ubuntu-server-standard
 Project with Ansible scripts to create an Ubuntu template on Proxmox from a cloned virtual machine with the default packages and updates.
 
 Run the command in the terminal:

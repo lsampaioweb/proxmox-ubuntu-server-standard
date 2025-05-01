@@ -1,4 +1,4 @@
-# proxmox-ubuntu-22-04-server-standard
+# proxmox-ubuntu-server-standard
 Project with Packer and Ansible scripts to create an Ubuntu template on Proxmox from a cloned virtual machine with the default packages and updates.
 
 #

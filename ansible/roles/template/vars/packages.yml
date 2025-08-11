@@ -1,0 +1,16 @@
+---
+apt_packages:
+  - {name: "sshpass"} # Provides non-interactive SSH password entry.
+  - {name: "libsecret-tools"} # Utility for storing and retrieving passwords.
+  - {name: "gnome-keyring"} # The secret manager.
+  - {name: "ethtool"} # Tool to manage network device settings, including Wake-on-LAN.
+  - {name: "curl"} # Command-line tool for transferring data with URLs.
+  - {name: "traceroute"} # Utility to trace the route packets take to a network host.
+  - {name: "whois"} # Provides information about domain names and IP addresses.
+  - {name: "net-tools"} # Collection of networking utilities (e.g., ifconfig, netstat).
+  - {name: "tree"} # Command to display directory contents in a tree-like format.
+  - {name: "uuid"} # Tool for generating and working with UUIDs (Universally Unique Identifiers).
+  - {name: "ufw"} # Uncomplicated Firewall, a frontend for managing firewall rules.
+  - {name: "fail2ban"} # Intrusion prevention software to protect against brute-force attacks.
+  - {name: "restic"} # Efficient and secure backup program.
+  - {name: "acl"} # Provides support for Access Control Lists (ACLs), allowing fine-grained permissions on files and directories.

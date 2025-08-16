@@ -1,20 +1,54 @@
-# Setup the machine with the default applications and settings
+# Ubuntu Server Standard Template
 
-### Tasks:
+**Server Enhancement Layer**: Adds essential server tools and security to the raw foundation.
 
-### 1. Change the hostname of the server.
+## Overview
 
-### 2. Install required packages.
+This template builds upon the server-raw foundation to create a production-ready server with enhanced networking, security, and administrative tools. Perfect for general-purpose server deployments.
 
-### 3. Setup the firewall UFW.
+## Security & Access Control
 
-### 4. Setup the fail2ban application.
+### Firewall Protection
+- **UFW (Uncomplicated Firewall)**: User-friendly firewall management.
+- **fail2ban**: Intrusion prevention against brute-force attacks.
 
-### 5. Remove unnecessary packages.
+### Authentication & Secrets
+- `sshpass` - Non-interactive SSH password authentication.
+- `libsecret-tools` - Secure credential storage and retrieval.
+- `gnome-keyring` - Secret management service.
 
-### 6. Recreate the machine-id file so the new VM can get a new IP.
+## Network Administration
 
-### 7. Remove unnecessary files, folders and configuration.
+### Network Tools
+- `ethtool` - Network device configuration (Wake-on-LAN, etc.).
+- `net-tools` - Classic networking utilities (ifconfig, netstat).
+- `curl` - HTTP/HTTPS data transfer tool.
+
+### Network Diagnostics
+- `traceroute` - Network path tracing and latency analysis.
+- `whois` - Domain and IP address information lookup.
+
+## System Administration
+
+### File System & Permissions
+- `acl` - Advanced file system permissions (Access Control Lists).
+- `tree` - Directory structure visualization.
+
+### System Utilities
+- `uuid` - UUID generation and manipulation.
+
+### Backup & Recovery
+- `restic` - Modern, efficient, and secure backup solution.
+
+## System Maintenance
+- **Hostname Configuration**: Sets unique server hostname.
+- **Package Cleanup**: Removes unnecessary packages.
+- **Machine-ID Reset**: Ensures unique system identity.
+- **System Cleanup**: Removes temporary files and configurations.
+
+## Dependencies
+- **Builds On**: `10-proxmox-ubuntu-server-raw`.
+- **Used By**: Production servers requiring enhanced tools.
 
 #
 ### Created by:

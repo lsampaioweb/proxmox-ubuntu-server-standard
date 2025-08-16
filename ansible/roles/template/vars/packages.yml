@@ -1,16 +1,28 @@
 ---
 apt_packages:
-  - {name: "sshpass"} # Provides non-interactive SSH password entry.
-  - {name: "libsecret-tools"} # Utility for storing and retrieving passwords.
-  - {name: "gnome-keyring"} # The secret manager.
-  - {name: "ethtool"} # Tool to manage network device settings, including Wake-on-LAN.
-  - {name: "curl"} # Command-line tool for transferring data with URLs.
-  - {name: "traceroute"} # Utility to trace the route packets take to a network host.
-  - {name: "whois"} # Provides information about domain names and IP addresses.
-  - {name: "net-tools"} # Collection of networking utilities (e.g., ifconfig, netstat).
-  - {name: "tree"} # Command to display directory contents in a tree-like format.
-  - {name: "uuid"} # Tool for generating and working with UUIDs (Universally Unique Identifiers).
-  - {name: "ufw"} # Uncomplicated Firewall, a frontend for managing firewall rules.
-  - {name: "fail2ban"} # Intrusion prevention software to protect against brute-force attacks.
-  - {name: "restic"} # Efficient and secure backup program.
-  - {name: "acl"} # Provides support for Access Control Lists (ACLs), allowing fine-grained permissions on files and directories.
+  # Authentication & Security - SSH and credential management tools.
+  - {name: "sshpass"} # Non-interactive SSH password authentication.
+  - {name: "libsecret-tools"} # Secure credential storage and retrieval.
+  - {name: "gnome-keyring"} # Secret management service for secure password storage.
+  # Network Administration - Network management and diagnostic tools.
+  - {name: "ethtool"} # Network device configuration (Wake-on-LAN, etc.).
+  - {name: "curl"} # HTTP/HTTPS data transfer tool.
+  - {name: "traceroute"} # Network path tracing and latency analysis.
+  - {name: "whois"} # Domain and IP address information lookup.
+  - {name: "net-tools"} # Classic networking utilities (ifconfig, netstat).
+  # System Administration - File management and system utilities.
+  - {name: "tree"} # Directory structure visualization tool.
+  - {name: "uuid"} # UUID generation and manipulation utility.
+  # Security & Firewall - System protection and intrusion prevention.
+  - {name: "ufw"} # Uncomplicated Firewall for iptables management.
+  - {name: "fail2ban"} # Intrusion prevention against brute-force attacks.
+  # Backup & Recovery - Data protection and backup solutions.
+  - {name: "restic"} # Modern, efficient, and secure backup program.
+  # Logging & Monitoring - System logging and audit capabilities.
+  - {name: "rsyslog"} # Centralized system logging service.
+  # Certificate Management - SSL/TLS certificate tools.
+  - {name: "libnss3-tools"} # Certificate utilities including certutil.
+  # Version Control - Source code and infrastructure management.
+  - {name: "git"} # Version control for infrastructure automation scripts.
+  # File System Permissions - Advanced access control.
+  - {name: "acl"} # Access Control Lists for fine-grained file permissions.

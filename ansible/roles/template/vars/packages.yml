@@ -4,25 +4,21 @@ apt_packages:
   - {name: "sshpass"} # Non-interactive SSH password authentication.
   - {name: "libsecret-tools"} # Secure credential storage and retrieval.
   - {name: "gnome-keyring"} # Secret management service for secure password storage.
-  # Network Administration - Network management and diagnostic tools.
-  - {name: "ethtool"} # Network device configuration (Wake-on-LAN, etc.).
-  - {name: "curl"} # HTTP/HTTPS data transfer tool.
-  - {name: "traceroute"} # Network path tracing and latency analysis.
-  - {name: "whois"} # Domain and IP address information lookup.
-  - {name: "net-tools"} # Classic networking utilities (ifconfig, netstat).
-  # System Administration - File management and system utilities.
-  - {name: "tree"} # Directory structure visualization tool.
-  - {name: "uuid"} # UUID generation and manipulation utility.
   # Security & Firewall - System protection and intrusion prevention.
   - {name: "ufw"} # Uncomplicated Firewall for iptables management.
   - {name: "fail2ban"} # Intrusion prevention against brute-force attacks.
-  # Backup & Recovery - Data protection and backup solutions.
-  - {name: "restic"} # Modern, efficient, and secure backup program.
-  # Logging & Monitoring - System logging and audit capabilities.
-  - {name: "rsyslog"} # Centralized system logging service.
-  # Certificate Management - SSL/TLS certificate tools.
-  - {name: "libnss3-tools"} # Certificate utilities including certutil.
-  # Version Control - Source code and infrastructure management.
-  - {name: "git"} # Version control for infrastructure automation scripts.
-  # File System Permissions - Advanced access control.
-  - {name: "acl"} # Access Control Lists for fine-grained file permissions.
+  # Networking and Diagnostics - Tools for network management and diagnostics.
+  - {name: "ethtool"} # Manages network device settings, including Wake-on-LAN.
+  - {name: "net-tools"} # Networking utilities (ifconfig, netstat).
+  - {name: "traceroute"} # For diagnosing network routing issues.
+  - {name: "whois"} # Retrieves domain and IP information.
+  - {name: "curl"} # Transfers data with URLs.
+  # System Administration - File management and system utilities.
+  - {name: "tree"} # Directory structure visualization tool.
+  - {name: "uuid"} # UUID generation and manipulation utility.
+  # Specialized Tools - Additional tools for specific tasks.
+  - {name: "nikto"} # Web server scanner for detecting vulnerabilities.
+  - {name: "restic"} # Efficient and secure backup program.
+  # Development Tools - Tools for development and Python-related functionality.
+  - {name: "git"} # Version control system for tracking changes in source code.
+  - {name: "jq"} # Command-line JSON processor for data manipulation.

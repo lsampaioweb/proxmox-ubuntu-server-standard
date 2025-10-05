@@ -12,5 +12,5 @@ edge-pve-[01:02]
 pve-[01:07]
 
 [testing]
-# For testing
+# For testing.
 test-server ansible_host=<ip>

@@ -2,7 +2,7 @@
 - name: "Changing the hostname"
   ansible.builtin.import_role:
     name: "common"
-    tasks_from: "debian/os/hostname"
+    tasks_from: "debian/os/hostname.yml"
 
 - name: "Installing required packages"
   ansible.builtin.import_tasks: "installing-packages.yml"
@@ -22,9 +22,9 @@
 - name: "Recreating the machine-id file so the new VM can get a new IP"
   ansible.builtin.import_role:
     name: "common"
-    tasks_from: "debian/os/machine-id"
+    tasks_from: "debian/os/machine-id.yml"
 
 - name: "Removing unnecessary files, folders and configuration"
   ansible.builtin.import_role:
     name: "common"
-    tasks_from: "debian/os/clean-up"
+    tasks_from: "debian/os/clean-up.yml"

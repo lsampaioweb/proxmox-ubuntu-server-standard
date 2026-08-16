@@ -1,10 +1,7 @@
 ---
 - name: "Including OS-specific or default variables for global packages"
   ansible.builtin.include_vars:
-    file: "{{ item }}"
-  with_first_found:
-    - "{{ ansible_lsb.codename }}.yml"
-    - "packages.yml"
+    file: "{{ lookup('first_found', dict(files=[ansible_lsb.codename + '.yml', 'packages.yml'], skip=true)) }}"
 
 - name: "Installing global APT packages"
   ansible.builtin.import_role:
